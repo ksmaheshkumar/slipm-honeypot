@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>slipm-honeypot by george2</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">slipm-honeypot</h1>
+        <p class="header">A simple low-interaction port monitoring honeypot.</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/george2/slipm-honeypot/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/george2/slipm-honeypot/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/george2/slipm-honeypot">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/george2">george2</a></p>
+
+
+      </header>
+      <section>
+        <p>This is a simple low-interaction port monitoring honeypot, designed
+primarily for research and detection purposes. It uses netcat as a
+port listener, tshark to attempt to capture attack traffic, and (by
+default) notify-send to alert the user when a possible attack is
+detected. The honeypot itself is written in bash, and allows for easy
+extension of emulated services with additional bash scripts. In order
+to increase security, the script should NOT be run as root, or with
+any elevated privelages. All it needs is the ability to run the
+required programs, read permissions on its plugins and
+configuration, and write permissions in whatever directory you 
+choose to save the logs and in /tmp.</p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
